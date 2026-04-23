@@ -64,6 +64,8 @@ In the current run, the fallback path was used:
 
 ## 4) Architecture (Upgraded Section)
 
+![Hybrid CVAE-GAN Architecture](cvae_gan_architecture.png)
+
 The research-grade implementation uses:
 
 1. **TextEncoderRG**
