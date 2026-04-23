@@ -13,7 +13,11 @@
 \onehalfspacing
 
 \title{Hybrid CVAE-GAN for Conditional Text-to-Image Generation: \newline A Controlled Baseline Study}
-\author{Your Name}
+\author{Negma Abdelrahman -- 22101242 \\
+Rokia Islam -- 22101084 \\
+Mariam Mohamed -- 22100778 \\
+Marc Hany -- 22100540 \\
+Ramez Ezzat -- 22100506}
 \date{2026}
 
 \begin{document}
@@ -119,6 +123,13 @@ The model includes four learned components:
 \end{itemize}
 
 The baseline and hybrid variants share the same text encoder, image encoder, and generator; the discriminator is optimized only in the hybrid configuration.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{cvae_gan_architecture.png}
+\caption{Architecture of the Hybrid CVAE-GAN model. The discriminator (dashed) is active only in the hybrid variant.}
+\label{fig:architecture}
+\end{figure}
 
 \subsection{Loss Functions}
 

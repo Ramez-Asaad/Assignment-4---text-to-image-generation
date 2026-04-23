@@ -41,3 +41,16 @@ runs_hybrid_cvae_gan/
 # Local datasets and generated data
 data/
 data_real/
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+
